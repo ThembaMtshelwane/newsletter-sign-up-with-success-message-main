@@ -21,6 +21,7 @@ main {
   display: flex;
   flex-direction: column;
   /* border: 2px solid red; */
+  width: 100%;
 }
 
 #top-section {
@@ -110,4 +111,43 @@ button {
 button:hover {
   background-image: linear-gradient(to right, #ff4775, #ff6347);
   cursor: pointer;
+}
+
+/* **********  PAGE 2 Styles ******** */
+#top-section-page-2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  /* border: 2px solid blue; */
+  height: 60vh;
+}
+
+#check-icon-page-2 {
+  margin-bottom: 15px;
+  width: 50px;
+}
+
+h1 {
+  width: 75%;
+}
+
+#info-page2 {
+  width: 90%;
+  line-height: 1.5;
+  font: 0.7rem;
+}
+#bottom-section-page-2 {
+  position: relative;
+  height: 30vh;
+  padding: 20px;
+  width: 100vw;
+}
+
+#button-page-2 {
+  position: absolute;
+  bottom: 0;
+  width: 90vw;
+  margin: auto;
 }

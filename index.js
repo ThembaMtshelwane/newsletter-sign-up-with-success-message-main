@@ -9,5 +9,4 @@ form.addEventListener('submit', (e) => {
   } else {
     alert('Error')
   }
-  //   form.reset()
 })
