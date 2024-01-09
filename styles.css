@@ -138,6 +138,11 @@ h1 {
   line-height: 1.5;
   font: 0.7rem;
 }
+
+#info-page2 span {
+  font-weight: 700;
+}
+
 #bottom-section-page-2 {
   position: relative;
   height: 30vh;
