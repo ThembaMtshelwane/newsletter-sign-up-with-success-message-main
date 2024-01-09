@@ -1,0 +1,113 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #242742;
+}
+
+body,
+main {
+  display: flex;
+  flex-direction: column;
+  color: #242742;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+
+#top-section {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+}
+
+#bottom-section {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid green; */
+  padding: 20px;
+}
+
+#head-info {
+  /* border: 2px solid black; */
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 10px 0px 10px 0px;
+  font-weight: 700;
+}
+h2 {
+  padding: 10px 0px 10px 0px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+ul {
+  font-size: 0.9rem;
+  padding: 10px 0px 10px 0px;
+  /* border: 2px solid purple; */
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  /* border: 2px solid purple; */
+  margin-bottom: 10px;
+}
+
+.check-icon {
+  width: 25px;
+  /* border: 2px solid purple; */
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  height: 24px;
+}
+
+.info {
+  /* border: 2px solid purple; */
+  margin-left: 20px;
+  line-height: 1.4;
+}
+
+form {
+  margin: 20px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid yellow; */
+}
+
+label {
+  font-size: 0.9rem;
+  color: #242742;
+  font-weight: 700;
+}
+
+button,
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #2427425e;
+}
+
+button {
+  background-color: #242742;
+  color: white;
+}
+
+button:hover {
+  background-image: linear-gradient(to right, #ff4775, #ff6347);
+  cursor: pointer;
+}
