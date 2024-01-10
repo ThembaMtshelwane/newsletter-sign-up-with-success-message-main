@@ -29,6 +29,11 @@ main {
   flex-direction: column;
   /* border: 2px solid blue; */
 }
+#banner {
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 0px 0px 5px 5px;
+}
 
 #bottom-section {
   display: flex;
@@ -38,19 +43,23 @@ main {
 }
 
 #head-info {
-  /* border: 2px solid black; */
+  /* border: 2px solid red; */
   margin-bottom: 20px;
+  width: 100%;
 }
 
 h1 {
   font-size: 1.8rem;
   padding: 10px 0px 10px 0px;
   font-weight: 700;
+  /* border: 2px solid blue; */
 }
+
 h2 {
   padding: 10px 0px 10px 0px;
   font-size: 0.9rem;
   line-height: 1.5;
+  /* border: 2px solid black; */
 }
 
 ul {
