@@ -92,25 +92,45 @@ label {
   font-size: 0.9rem;
   color: #242742;
   font-weight: 700;
+  font-size: 0.8rem;
 }
 
 button,
 input {
   width: 100%;
-  padding: 15px;
+  padding: 20px;
   margin: 10px 0;
-  border-radius: 5px;
+  border-radius: 7px;
   border: 1px solid #2427425e;
 }
 
 button {
   background-color: #242742;
   color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 button:hover {
   background-image: linear-gradient(to right, #ff4775, #ff6347);
   cursor: pointer;
+}
+
+#label-error {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error-message {
+  color: tomato;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.error-background {
+  background-color: #ff634725;
+  color: #ff6347;
+  border: 1px solid tomato;
 }
 
 /* **********  PAGE 2 Styles ******** */
